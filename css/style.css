@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ nav{
+    width: 100%;
+    height: 80px;
+    background-color:#06a3da;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+label.logo a{
+    font-size: 30px;
+    color: #fff;
+    
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    /* line-height: 80px; */
+    padding-top: 30px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 18px;
+   
+}
+nav ul li a.active, nav ul li a:hover{
+    background-color: #6662f0;
+    border-radius: 5px;
+}
+#check-btn{
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    font-size: 30px;
+    color: #fff;
+    display: none;
+}
+#check{
+    display: none;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+
+
+
+
+
+
+
+ /* header{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #ffffff;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu{
+    float: right;
+    
+}
+.menu ul li{
+    display: inline;
+   
+}
+.menu ul li a{
+    margin: 10px 20px;
+    color: #000;
+}  */
+
+
+
+
+
+
+.owl-carousel .owl-item img{
+    width: 100% !important;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+#card{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+.card-container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.cardbox{
+    width: 100%;
+    height: 180px;
+    background-color:#06a3da;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+    transition: width 2s, height 2s, transform 2s;
+}
+.cardbox p{
+    padding-top: 10px;
+}
+.fa-user-doctor, .fa-hand-holding-dollar, .fa-desktop{
+    font-size: 60px;
+    margin: 10px;
+    color: #ffffff;
+}
+.cardbox:hover{
+   
+    transform: rotate(360deg);
+}
+
+
+
+#about{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+#about h3{
+    padding-bottom: 30px;
+    text-align: center;
+    color: #06a3da; 
+}
+.about-container{
+    width: 90%;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.aboutimg{
+    width: 100%;
+    height: auto;
+}
+.aboutimg img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.abouttext{
+    width: 100%;
+    height: auto;
+}
+.abouttext h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.abouttext p{
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.abouttext  button{
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #06a3da;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.abouttext  button:hover{
+    background-color: #6662f0;
+}
+
+
+
+
+
+#service{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+}
+#service h3{
+    padding-bottom: 30px;
+    text-align: center;
+    color:#06a3da; 
+}
+.service-container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.service-box{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* aspect-ratio: 16/9; */
+    border-radius: 10px;
+}
+.service-box img{
+    width: 100%;
+    /* height: 100%; */
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    transition: transform .9s;
+}
+.service-box img:hover{
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+.service-text{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    height:auto;
+    margin-top: -30px;
+    z-index: 6;
+   position: relative;
+   box-shadow: 0px 4px 10px rgba(190, 174, 174, 0.81);
+    padding: 20px;
+    border-radius: 10px;
+    color: #4ac6f3; 
+   
+}
+.service-text:hover{
+    background-color: #4ac6f3;
+    transition: all 0.9s;
+    color: #fff;
+}
+.service-text h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+   cursor: pointer;
+}
+.service-text p{
+    line-height: 25px;
+   
+}
+
+
+
+
+#blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+#blog h3{
+    color: #06a3da;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.blog-container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.blog-box{
+    width: 100%;
+    height: auto;
+   border: 1px solid rgb(219, 210, 210);
+   border-radius: 10px;
+}
+.blog-box:hover{
+    margin-top: -15px; 
+    transition: all .6s;
+}
+.blog-box img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.blog-box h4{
+    padding: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.blog-box h4:hover{
+    color: #06a3da;
+    transition: all .7s;
+}
+.blog-box p{
+    padding: 15px;
+    font-size: 16px;
+    line-height: 25px;
+   
+}
+
+.blog-box a button{
+    margin: 15px;
+    padding:  15px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #06a3da;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.blog-box a button:hover{
+    background-color: #6662f0;
+    transition: all .7s;
+}
+
+
+
+#footer{
+width: 100%;
+height: auto;
+padding-top: 50px;
+padding-bottom: 30px;
+background-color: #0b3058;
+}
+.footer-container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:30px
+}
+.footer-box{
+    width: 100%;
+    height: auto;
+    
+}
+.footer-box h3{
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.footer-box ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+.footer-box ul li a{
+    color: #a39e9e;
+    
+}
+.fa-phone, .fa-clock, .fa-location-dot{
+    color: #06a3da;
+    font-size: 22px;
+}
+.copy{
+    color: #a39e9e;
+    font-size: 12px;
+    
+}
